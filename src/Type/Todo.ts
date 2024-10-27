@@ -4,8 +4,3 @@ export interface Todo {
   done: boolean;
   limit_date: string;
 }
-
-export interface TodoRef {
-  id: number;
-  todo: Todo;
-}
